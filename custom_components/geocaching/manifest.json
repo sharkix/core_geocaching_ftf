@@ -1,10 +1,10 @@
 {
-  "domain": "geocaching",
-  "name": "Geocaching",
+  "domain": "geocaching_test",
+  "name": "Geocaching Test",
   "config_flow": true,
+  "version": "0.0.1",
   "documentation": "https://www.home-assistant.io/integrations/geocaching",
   "requirements": ["geocachingapi==0.2.1"],
   "dependencies": ["application_credentials"],
-  "codeowners": ["@Sholofly", "@reinder83"],
-  "iot_class": "cloud_polling"
+  "codeowners": ["@Sholofly", "@reinder83", "sharkix"]
 }
